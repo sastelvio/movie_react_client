@@ -18,7 +18,7 @@ const Hero = ({movies}) => {
                                                 <img src={movie.poster} alt='' />
                                             </div>
                                             <div className='movie-title'>
-                                                <h4>{movie.title}</h4>
+                                                <h2>{movie.title}</h2>
                                             </div>
                                         </div>
                                     </div>
