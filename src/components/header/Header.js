@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container fluid>
-                <Navbar.Brand href="/" style={{ "color": 'red' }}>
+                <Navbar.Brand href="/" style={{ "color": 'red', "fontWeight": 'bolder', "fontSize": '2rem' }}>
                     <FontAwesomeIcon icon={faVideoSlash} />SASFLIX
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
