@@ -15,7 +15,10 @@ An Client made using React to consume an API made using Spring Boot (with Java),
 ## Tools and Technologies
 
  - ReactJs
- - 
+ - MongoDB
+ - Axios
+ - Bootstrap
+ 
 
 ## Features
 

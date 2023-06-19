@@ -12,7 +12,7 @@ const Header = () => {
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container fluid>
                 <Navbar.Brand href="/" style={{ "color": 'red', "fontWeight": 'bolder', "fontSize": '2rem' }}>
-                    <FontAwesomeIcon icon={faVideoSlash} />SASFLIX
+                    <FontAwesomeIcon icon={faVideoSlash} /> SASFLIX
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
@@ -22,7 +22,9 @@ const Header = () => {
                         navbarScroll
                     >
                         <NavLink className="nav-link" to="/">Home</NavLink>
-                        <NavLink className="nav-link" to="/watchList">Watch List</NavLink>
+                        <NavLink className="nav-link" to="/watchList">Releases</NavLink>
+                        <NavLink className="nav-link" to="/watchList">Watch List</NavLink>                        
+                        <NavLink className="nav-link" to="/watchList">About</NavLink>
                     </Nav>
                     <Button variant="outline-info" className="me-2">Login</Button>
                     <Button variant="outline-info" className="me-2">Register</Button>
